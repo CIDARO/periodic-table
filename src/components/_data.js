@@ -1827,10 +1827,10 @@ module.exports = {
       number: 76,
       period: 6,
       phase: 'Solid',
-      source: 'https://en.wikipedia.org/wiki/Osmium',
+      source: 'https://github.com/CIDARO/osmium',
       spectral_img: null,
       summary:
-        'Osmium (from Greek osme (\u1f40\u03c3\u03bc\u03ae) meaning "smell") is a chemical element with symbol Os and atomic number 76. It is a hard, brittle, bluish-white transition metal in the platinum group that is found as a trace element in alloys, mostly in platinum ores. Osmium is the densest naturally occurring element, with a density of 22.59 g/cm3.',
+       'Osmium is an Open Source tool that dumps and restores MongoDB databases in NodeJS and it\'s currently being tested in production.',
       symbol: 'Os',
       xpos: 8,
       ypos: 6,

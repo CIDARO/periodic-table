@@ -110,7 +110,7 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="26" />
           <Element showInfo={this.showInfo} num="27" enabled={true} />
           <Element showInfo={this.showInfo} num="28" />
-          <Element showInfo={this.showInfo} num="29" />
+          <Element showInfo={this.showInfo} num="29" enabled={true} />
           <Element showInfo={this.showInfo} num="30" enabled={true} />
           <Element showInfo={this.showInfo} num="31" />
           <Element showInfo={this.showInfo} num="32" />
@@ -148,7 +148,7 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="76" />
           <Element showInfo={this.showInfo} num="77" enabled={true} />
           <Element showInfo={this.showInfo} num="78" />
-          <Element showInfo={this.showInfo} num="79" />
+          <Element showInfo={this.showInfo} num="79" enabled={true} />
           <Element showInfo={this.showInfo} num="80" />
           <Element showInfo={this.showInfo} num="81" />
           <Element showInfo={this.showInfo} num="82" />

@@ -7,7 +7,7 @@ export default class Element extends Component {
   };
 
   openInfo = (event) => {
-    this.props.showInfo(this.props.num);
+    if (this.props.enabled) this.props.showInfo(this.props.num);
   };
 
   onMouseEnter = (event) => {
@@ -28,8 +28,8 @@ export default class Element extends Component {
         onMouseLeave={this.onMouseLeave}
         onClick={this.openInfo}
         className={`element element-${num} ${element.category} ${
-          this.state.hover ? 'active' : ''
-        }`}>
+          this.state.hover && this.props.enabled ? 'active' : ''
+        } ${!this.props.enabled ? 'disabled' : ''}`}>
         <div className="number">{element.number}</div>
         <div className="symbol">{element.symbol}</div>
         <div className="element-name">{element.name}</div>

@@ -213,3 +213,7 @@ body {
   background: #fff;
   /* border-color: yellow; */
 }
+
+.disabled {
+  background: lightgrey !important;
+}

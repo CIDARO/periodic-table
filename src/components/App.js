@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { elements } from './_data';
 import Element from './Element';
 
-document.title = 'The Periodic Table of Elements';
+document.title = 'CIDARO Periodic Table of Elements';
 
 class App extends Component {
   state = {
@@ -36,26 +36,10 @@ class App extends Component {
 
     return (
       <div className="wrapper">
-        <h1>The Periodic Table of Elements</h1>
-        <p className="">
-          Put together by{' '}
-          <a href="https://tamalweb.com" target="_blank">
-            Tamal Anwar
-          </a>{' '}
-          /{' '}
-          <a
-            href="https://github.com/TamalAnwar/periodic-table"
-            target="_blank">
-            Source Code
-          </a>
-          /{' '}
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//tamalanwar.github.io/periodic-table/">
-            Share on Facebook
-          </a>
-        </p>
+        <h1>CIDARO Periodic Table of Elements</h1>
         <div id="table">
           <Element showInfo={this.showInfo} num="1" />
-          <Element showInfo={this.showInfo} num="2" />
+          <Element showInfo={this.showInfo} num="2" enabled={true} />
           <Element showInfo={this.showInfo} num="3" />
           <Element showInfo={this.showInfo} num="4" />
           {/* Information Table */}
@@ -91,10 +75,10 @@ class App extends Component {
                     {boil ? <span> | Boil: {boil}K</span> : ''}
                   </div>
                   <div>
-                    {summary} ...{' '}
-                    <a target="_blank" href={source}>
-                      Source
-                    </a>
+                    {summary} {' '}
+                    {source ? <a target="_blank" href={source}>
+                      Github
+                    </a> : ''}
                   </div>
                 </div>
               </div>
@@ -103,10 +87,10 @@ class App extends Component {
             ''
           )}
           <Element showInfo={this.showInfo} num="5" />
-          <Element showInfo={this.showInfo} num="6" />
-          <Element showInfo={this.showInfo} num="7" />
-          <Element showInfo={this.showInfo} num="8" />
-          <Element showInfo={this.showInfo} num="9" />
+          <Element showInfo={this.showInfo} num="6" enabled={true} />
+          <Element showInfo={this.showInfo} num="7" enabled={true} />
+          <Element showInfo={this.showInfo} num="8" enabled={true} />
+          <Element showInfo={this.showInfo} num="9" enabled={true} />
           <Element showInfo={this.showInfo} num="10" />
           <Element showInfo={this.showInfo} num="11" />
           <Element showInfo={this.showInfo} num="12" />
@@ -124,10 +108,10 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="24" />
           <Element showInfo={this.showInfo} num="25" />
           <Element showInfo={this.showInfo} num="26" />
-          <Element showInfo={this.showInfo} num="27" />
+          <Element showInfo={this.showInfo} num="27" enabled={true} />
           <Element showInfo={this.showInfo} num="28" />
           <Element showInfo={this.showInfo} num="29" />
-          <Element showInfo={this.showInfo} num="30" />
+          <Element showInfo={this.showInfo} num="30" enabled={true} />
           <Element showInfo={this.showInfo} num="31" />
           <Element showInfo={this.showInfo} num="32" />
           <Element showInfo={this.showInfo} num="33" />
@@ -147,7 +131,7 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="47" />
           <Element showInfo={this.showInfo} num="48" />
           <Element showInfo={this.showInfo} num="49" />
-          <Element showInfo={this.showInfo} num="50" />
+          <Element showInfo={this.showInfo} num="50" enabled={true} />
           <Element showInfo={this.showInfo} num="51" />
           <Element showInfo={this.showInfo} num="52" />
           <Element showInfo={this.showInfo} num="53" />
@@ -162,13 +146,13 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="74" />
           <Element showInfo={this.showInfo} num="75" />
           <Element showInfo={this.showInfo} num="76" />
-          <Element showInfo={this.showInfo} num="77" />
+          <Element showInfo={this.showInfo} num="77" enabled={true} />
           <Element showInfo={this.showInfo} num="78" />
           <Element showInfo={this.showInfo} num="79" />
           <Element showInfo={this.showInfo} num="80" />
           <Element showInfo={this.showInfo} num="81" />
           <Element showInfo={this.showInfo} num="82" />
-          <Element showInfo={this.showInfo} num="83" />
+          <Element showInfo={this.showInfo} num="83" enabled={true} />
           <Element showInfo={this.showInfo} num="84" />
           <Element showInfo={this.showInfo} num="85" />
           <Element showInfo={this.showInfo} num="86" />
@@ -223,7 +207,7 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="102" />
           <Element showInfo={this.showInfo} num="103" />
         </div>
-        <p className="center">2018</p>
+        <p className="center">©2020 CIDARO srl - <a href="https://github.com/CIDARO/periodic-table" target="_blank" rel="noopener noreferrer">Github</a></p>
       </div>
     );
   }

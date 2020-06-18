@@ -145,7 +145,7 @@ class App extends Component {
           <Element showInfo={this.showInfo} num="73" />
           <Element showInfo={this.showInfo} num="74" />
           <Element showInfo={this.showInfo} num="75" />
-          <Element showInfo={this.showInfo} num="76" />
+          <Element showInfo={this.showInfo} num="76" enabled={true} />
           <Element showInfo={this.showInfo} num="77" enabled={true} />
           <Element showInfo={this.showInfo} num="78" />
           <Element showInfo={this.showInfo} num="79" enabled={true} />

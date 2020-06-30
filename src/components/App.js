@@ -40,7 +40,7 @@ class App extends Component {
         <div id="table">
           <Element showInfo={this.showInfo} num="1" />
           <Element showInfo={this.showInfo} num="2" enabled={true} />
-          <Element showInfo={this.showInfo} num="3" />
+          <Element showInfo={this.showInfo} num="3" enabled={true} />
           <Element showInfo={this.showInfo} num="4" />
           {/* Information Table */}
           {this.state.showInfo ? (

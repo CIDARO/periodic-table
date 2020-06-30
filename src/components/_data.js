@@ -68,10 +68,10 @@ module.exports = {
       number: 3,
       period: 2,
       phase: 'Solid',
-      source: 'https://en.wikipedia.org/wiki/Lithium',
+      source: 'https://github.com/CIDARO/lithium',
       spectral_img: null,
       summary:
-        'Lithium (from Greek:\u03bb\u03af\u03b8\u03bf\u03c2 lithos, "stone") is a chemical element with the symbol Li and atomic number 3. It is a soft, silver-white metal belonging to the alkali metal group of chemical elements. Under standard conditions it is the lightest metal and the least dense solid element.',
+        'Lithium is an Open Source Ethereum Transaction cost analyzer made with NodeJS. It uses a Tensorflow AI model to predict the future cost of transactions based on its analysis.',
       symbol: 'Li',
       xpos: 1,
       ypos: 2,

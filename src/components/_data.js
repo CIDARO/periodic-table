@@ -19,10 +19,10 @@ module.exports = {
       number: 1,
       period: 1,
       phase: 'Gas',
-      source: 'https://en.wikipedia.org/wiki/Hydrogen',
+      source: 'https://github.com/CIDARO/hydrogen',
       spectral_img: 'https://en.wikipedia.org/wiki/File:Hydrogen_Spectra.jpg',
       summary:
-        'Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.',
+        'Hydrogen is an Open Source web framework for Deno inspired by ExpressJS and deno-express. It is currently in v0.1.0 since it has just been released, so you can help us with that!',
       symbol: 'H',
       xpos: 1,
       ypos: 1,

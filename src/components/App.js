@@ -38,7 +38,7 @@ class App extends Component {
       <div className="wrapper">
         <h1>CIDARO Periodic Table of Elements</h1>
         <div id="table">
-          <Element showInfo={this.showInfo} num="1" />
+          <Element showInfo={this.showInfo} num="1" enabled={true} />
           <Element showInfo={this.showInfo} num="2" enabled={true} />
           <Element showInfo={this.showInfo} num="3" enabled={true} />
           <Element showInfo={this.showInfo} num="4" />
